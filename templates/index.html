@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Souza markup</title>
+</head>
+
+<style>
+
+body{
+    background: rgb(237, 112, 232);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+header{
+    width: 400px;
+    height: 200px;
+    margin: auto;
+    display: flex;
+    background-color: rgb(208, 201, 208);
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 4px 14px rgba(0,0,0,0.5);
+}
+
+h2{
+    color: rgb(201, 68, 144);
+}
+
+button{
+    width: 100px;
+    background-color: rgb(40, 149, 40);
+    color: white;
+    border-radius: 7px;
+    border: none;
+}
+
+p{
+    color: rgb(255, 0, 0);
+}
+
+input{
+    border: none;
+}
+
+
+</style>
+
+<body>
+    <h1>Olá bem vindo(a), ao souza markup!</h1>
+
+    <header>
+        <form method="POST">
+            <h2>Digite seu nome a baixo!</h2>
+            <input type="text" name="nome", placeholder="Digite seu primeiro nome..">
+            <p>{{info}}</p>
+            <button type="submit">Entrar</button>
+        </form>
+    </header>
+    
+</body>
+
+</html>
